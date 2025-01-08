@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+</head>
+<body>
+    <h1>Search Google</h1>
+    <iframe src="https://www.google.com/search?q=iframe" width="800" height="600" style="border: none;">
+    </iframe>
+
+    <form action="https://www.google.com/search" method="get" target="_blank">
+        <input type="text" name="q" placeholder="Search Google...">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
