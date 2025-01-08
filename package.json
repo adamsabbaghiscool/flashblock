@@ -1,6 +1,6 @@
 {
-  "name": "interstellar",
-  "version": "5.2.5",
+  "name": "FlashBlock",
+  "version": "1.0.0",
   "type": "module",
   "engines": {
     "npm": ">=7.0.0",
@@ -12,8 +12,7 @@
     "precommit": "pnpm run format && biome check --write .",
     "lint": "biome lint --write ."
   },
-  "author": "InterstellarNetwork",
-  "license": "GPL-3.0-or-later",
+  "author": "adamsabbaghiscool",
   "dependencies": {
     "@nebula-services/bare-server-node": "^2.0.4",
     "chalk": "^5.4.1",
