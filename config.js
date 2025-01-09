@@ -1,9 +1,10 @@
-const config = {
-  challenge: false, // Set to true if you want to enable password protection.
-  users: {
-    // You can add multiple users by doing username: 'password'.
-    interstellar: "password",
-  },
+self.__uv$config = {
+  prefix: "/a/",
+  bare: "/fq/",
+  encodeUrl: Ultraviolet.codec.xor.encode,
+  decodeUrl: Ultraviolet.codec.xor.decode,
+  handler: "/assets/ultra/handler.js?v=9-30-2024",
+  bundle: "/assets/ultra/bundle.js?v=9-30-2024",
+  config: "/assets/ultra/config.js?v=9-30-2024",
+  sw: "/assets/ultra/sw.js?v=9-30-2024",
 };
-
-export default config;
